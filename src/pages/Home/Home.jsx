@@ -18,8 +18,8 @@ const Home = () => {
           <p className="text-gray-500 py-4  max-w-md">
             {" "}
             A student trying to get into the web development industry and leave
-            some imprints. 
-            Hardworking,Motivated and deligient Student
+            some imprints. <br/>
+            Hardworking,Motivated and Focused.
           </p>
           <div>
             <Link to='portfolio' smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-xl bg-gradient-to-r from-cyan-500 to to-blue-500 cursor-pointer">
