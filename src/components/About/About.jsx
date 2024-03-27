@@ -12,14 +12,14 @@ const About = () => {
             About
           </p>
         </div>
-        <p className="text-xl mt-20">
+        <p className="text-base sm:text-xl mt-20">
           I'm Dipesh Khaiju, a 20-year-old student passionate about coding and
           technology. Currently pursuing my education, I'm on a mission to
           become a professional developer and make a meaningful impact in the
           tech industry.
         </p>
         <br />
-        <p className="text-xl hidden sm:block ">
+        <p className="sm:text-xl  hidden sm:block ">
           Ever since I wrote my first line of code, I've been captivated by the
           endless possibilities of software development. From building simple
           projects to exploring complex algorithms, coding has become more than
@@ -27,7 +27,7 @@ const About = () => {
           constantly seeking opportunities to expand my skills and knowledge.
         </p>
         <br />
-        <p className="text-xl">
+        <p className="sm:text-xl text-base">
           As I continue on my journey, my goal is not only to become a
           proficient developer but also to contribute to projects that make a
           positive difference in people's lives. I envision a future where
@@ -35,7 +35,7 @@ const About = () => {
           a part of that transformation.
         </p>
         <br />
-        <p className="text-xl">
+        <p className=" text-base sm:text-xl">
           I'm always eager to collaborate with like-minded individuals and
           organizations. Whether you're looking for a passionate coder to join
           your team or simply want to discuss the latest tech trends, feel free
