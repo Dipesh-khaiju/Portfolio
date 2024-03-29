@@ -58,12 +58,14 @@ const Portfolio = () => {
                 <button
                   onClick={() => navigateDemo(link1)}
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  formtarget="_blank"
                 >
                   Demo
                 </button>
                 <button
                   onClick={() => navigateCode(link2)}
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  formtarget="_blank"
                 >
                   Code
                 </button>
