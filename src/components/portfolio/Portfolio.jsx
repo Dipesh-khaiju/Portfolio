@@ -21,7 +21,7 @@ const Portfolio = () => {
       id: 3,
       src: weather,
       link1: "https://weatherappdipesh.onrender.com/",
-      link2: "https://github.com/Dipesh-khaiju/todolist_mern"
+      link2: "https://github.com/Dipesh-khaiju/weatherapp"
     },
   ];
 
