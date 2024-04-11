@@ -18,14 +18,9 @@ const Portfolio = () => {
       link1: "https://khaijushop.netlify.app/",
       link2: "https://github.com/Dipesh-khaiju/ecomm_khaijushop"
     },
+
     {
       id: 3,
-      src: cms,
-      link1: "https://merocms.onrender.com/",
-      link2: "https://github.com/Dipesh-khaiju/CMS"
-    },
-    {
-      id: 4,
       src: weather,
       link1: "https://weatherappdipesh.onrender.com/",
       link2: "https://github.com/Dipesh-khaiju/weatherapp"
