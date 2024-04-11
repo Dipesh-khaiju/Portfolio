@@ -42,7 +42,7 @@ const links=[
              Resume <BsFillPersonLinesFill size={30} />
             </>
         ),
-        href:"../../public/resume.pdf",
+        href:"../../assets/resume.pdf",
         style:"rounded-br-md",
         download:true
     },
