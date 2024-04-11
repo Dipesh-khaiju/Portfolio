@@ -2,23 +2,30 @@ import React from "react";
 import khaijushop from "../../assets/img/khaijushop.png";
 import cms from "../../assets/img/cms.png";
 import weather from "../../assets/img/weather.png";
+import xalfal from "../../assets/img/xalfal.png"
 
 const Portfolio = () => {
   const portfolios = [
     {
-      id: 1,
+      id:1,
+      src :xalfal,
+      link1:"https://xalfal.onrender.com/",
+      link2:"https://github.com/Dipesh-khaiju/Xalfal"
+    },
+    {
+      id: 2,
       src: khaijushop,
       link1: "https://khaijushop.netlify.app/",
       link2: "https://github.com/Dipesh-khaiju/ecomm_khaijushop"
     },
     {
-      id: 2,
+      id: 3,
       src: cms,
       link1: "https://merocms.onrender.com/",
       link2: "https://github.com/Dipesh-khaiju/CMS"
     },
     {
-      id: 3,
+      id: 4,
       src: weather,
       link1: "https://weatherappdipesh.onrender.com/",
       link2: "https://github.com/Dipesh-khaiju/todolist_mern"
@@ -41,7 +48,7 @@ const Portfolio = () => {
       <div className="max-w-screen-kg p-4 mx-auto flex flex-col justify-center w-fullh-full">
         <div>
           <p className="text-4xl font-bold  inline border-b-4 border-gray-500">
-            Portfolio
+            Projects
           </p>
           <p className="py-6">Check out some of my Projects:</p>
         </div>

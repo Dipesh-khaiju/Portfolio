@@ -42,7 +42,7 @@ const links=[
              Resume <BsFillPersonLinesFill size={30} />
             </>
         ),
-        href:"../../public/Resume-Dipesh-Khaiju.pdf",
+        href:"../../../public/resume.pdf",
         style:"rounded-br-md",
         download:true
     },
@@ -57,7 +57,7 @@ const links=[
             links.map(({id,href,child,style,download})=>(
                 <li key={id} 
                 className={"flex justify-between itens-center w-40 h-14 px-4 bg-gray-500 ml-[-140px] sm:ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px]"+" "+style}>
-                <a href={href} download={download} target="_blank" className='flex justify-between items-center w-full text-white'>
+                <a href={href} download={download} target="_blank"   rel="noopener noreferrer" className='flex justify-between items-center w-full text-white'>
                   {child}
                 </a>
             </li>

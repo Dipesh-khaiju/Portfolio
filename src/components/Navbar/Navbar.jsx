@@ -19,7 +19,7 @@ const Navbar = () => {
     },
     {
       id: 3,
-      name: "Portfolio",
+      name: "Projects",
       target:"portfolio"
     },
     
