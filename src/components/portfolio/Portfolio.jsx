@@ -28,7 +28,7 @@ const Portfolio = () => {
       id: 4,
       src: weather,
       link1: "https://weatherappdipesh.onrender.com/",
-      link2: "https://github.com/Dipesh-khaiju/todolist_mern"
+      link2: "https://github.com/Dipesh-khaiju/weatherapp"
     },
   ];
 
@@ -65,12 +65,14 @@ const Portfolio = () => {
                 <button
                   onClick={() => navigateDemo(link1)}
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  target="_blank"
                 >
                   Demo
                 </button>
                 <button
                   onClick={() => navigateCode(link2)}
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  target="_blank"
                 >
                   Code
                 </button>
